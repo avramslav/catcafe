@@ -1,0 +1,25 @@
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: latest
+  sourceType: 'module'
+  requireConfigFile: false
+  babelOptions:
+    presets: ['@babel/preset-react']
+
+env:
+  es2017: true
+  browser: true
+
+extends: [ "eslint:recommended",'plugin:react/recommended', 'htmlacademy/react' ]
+
+rules: #отключили правило react/prop-types, чтобы не описывать эти типы
+  react/prop-types: 'off'
+
+parser: "@babel/eslint-parser"
+
+plugins: [ 'react' ]
+
+settings:
+  react:
+    version: '17.0.2'
