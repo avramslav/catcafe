@@ -1,0 +1,26 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px 45px;
+  background-color: #ffffff;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  min-height: 43px;
+  min-width: 148px;
+  max-width: 700px;
+  padding: 8px 12px;
+  font-size: 18px;
+  background-color: #fff6d9;
+  border-radius: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
